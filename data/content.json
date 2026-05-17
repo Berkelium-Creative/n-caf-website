@@ -1,47 +1,144 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "N Café",
+  "tagline": "A neighborhood coffee shop on Glenoaks.",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "eyebrow": "GLENDALE · OPEN DAILY · 8 AM → 8 PM",
+    "heading": "A neighborhood coffee shop that actually opens at 8.",
+    "subheading": "Owner-run since the day before yesterday. Pour-over, espresso, breakfast plates, and the kind of regular's chair that has your name on it within a week.",
+    "ctaText": "Call to order",
+    "ctaLink": "tel:8182012233",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEShjTGfeTQ8sHpMaz2BuF_odoPJZS-msXicUHTllJlqrUE8AhTzVW7CcZvV9OFxuLJLRV7sBC_Vjb-N-1xbMNXd_vzA9b-3Vczgg162OSl8GgnIs1P0d3HxVPmSn1L7-E_rf5Vr1OPhnXw=w1600"
   },
   "about": {
-    "heading": "About Us",
+    "label": "Dispatch",
+    "heading": "The shop, in plain English.",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "We're on the corner of Glenoaks, in a building that's been a coffee shop in some form or another for longer than most of our regulars have been alive. Nova bought the lease in 2019, redid the counter, kept the chairs, and decided that twelve hours a day, seven days a week was the right answer to the question 'when are you open?'",
+      "We grind to order. We brew filter coffee on a Marco SP9 because consistency matters more than novelty. The Armenian-style coffee is on the menu because the neighborhood asked for it, not because someone read a trend report.",
+      "The food is short and honest — a few breakfast plates, a few sandwiches, baklava and basturma on the days we have them. We don't run specials we can't repeat."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Pour-Over · House",
+      "description": "Rotating single-origin filter, brewed on the V60. Six ounces, served black, refill on the house if you stay for a second.",
+      "price": "$4.50"
+    },
+    {
+      "title": "Armenian Soorj",
+      "description": "Fine-ground coffee, simmered in a long-handled jezve. Strong, sweet by default — say 'sade' and we'll skip the sugar.",
+      "price": "$3.75"
+    },
+    {
+      "title": "Espresso · Double",
+      "description": "Two shots, properly extracted, on a 9-bar manual lever. Pull time 26-32s, no exceptions, no apologies.",
+      "price": "$3.50"
+    },
+    {
+      "title": "Lavash Breakfast",
+      "description": "Two eggs your way, basturma or sujuk, tomato, cucumber, herbs, fresh lavash. The plate the regulars order.",
+      "price": "$14"
+    },
+    {
+      "title": "Sandwich · The N",
+      "description": "Roast turkey, sharp cheddar, pickled onions, mustard butter on a fresh-baked roll. A second cup of coffee is included.",
+      "price": "$13"
+    },
+    {
+      "title": "Baklava — by the piece",
+      "description": "Hand-cut, layered with walnut and rose water, finished with a thin honey-clover syrup. Two pieces is a meal.",
+      "price": "$4"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Karina A.",
+      "rating": 5,
+      "context": "Resident · 8 yrs Glendale",
+      "text": "This is what a neighborhood coffee shop is supposed to be. Open early, open late, no pretension, and the soorj is exactly right. I've gone almost every morning for three years."
+    },
+    {
+      "name": "Brian L.",
+      "rating": 4,
+      "context": "Commuter from Eagle Rock",
+      "text": "Best lavash breakfast in Glendale and I've eaten a lot of them. The espresso is genuinely well-pulled, which is rare for a 12-hour shop. The room can fill up around 10 — go early or after 2."
+    },
+    {
+      "name": "Tigran K.",
+      "rating": 5,
+      "context": "Saturday afternoon regular",
+      "text": "Nova actually knows your order by your third visit. The baklava is the real thing, not the sticky tourist version. This place is the rest-of-LA's loss."
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(818) 201-2233",
+    "email": "hello@ncafe.coffee",
+    "address": "901 W Glenoaks Blvd, Glendale, CA 91202",
+    "mapEmbedQuery": "N Cafe, 901 W Glenoaks Blvd, Glendale, CA 91202",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
-      "Sunday": "Closed"
-    },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+      "Monday": "8:00 AM – 8:00 PM",
+      "Tuesday": "8:00 AM – 8:00 PM",
+      "Wednesday": "8:00 AM – 8:00 PM",
+      "Thursday": "8:00 AM – 8:00 PM",
+      "Friday": "8:00 AM – 8:00 PM",
+      "Saturday": "8:00 AM – 8:00 PM",
+      "Sunday": "8:00 AM – 8:00 PM"
+    }
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/ncafebynova/",
+    "facebook": "https://www.facebook.com/19907809",
+    "yelp": "https://www.yelp.com/biz/n-cafe-glendale-2"
   },
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
+    "title": "N Café — Neighborhood Coffee on Glenoaks · Glendale",
+    "description": "Owner-run Glendale coffee shop on Glenoaks Blvd. Pour-over, Armenian soorj, espresso, lavash breakfasts, baklava — open 8 AM to 8 PM, every day.",
+    "keywords": [
+      "Glendale coffee shop",
+      "Glenoaks coffee",
+      "Armenian coffee Glendale",
+      "lavash breakfast Glendale",
+      "soorj Glendale",
+      "neighborhood cafe Glendale"
+    ]
   },
   "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
+    "primaryColor": "#18181B",
+    "accentColor": "#EC4899",
+    "fontFamily": "bigshoulders-schibsted"
+  },
+  "designSystem": {
+    "searchQuery": "brutalist concrete monolithic cafe newspaper grid neighborhood coffee no-frills",
+    "styleName": "Newspaper Editorial / Magazine Grid (brutalist masthead)",
+    "pattern": "Portfolio Grid + Editorial Spread",
+    "palette": {
+      "primary": "#18181B",
+      "secondary": "#3F3F46",
+      "cta": "#18181B",
+      "accent": "#EC4899",
+      "background": "#FAFAFA",
+      "text": "#09090B",
+      "muted": "#64748B",
+      "border": "#E4E4E7",
+      "surface": "#FFFFFF"
+    },
+    "typography": {
+      "heading": "Big Shoulders Display",
+      "body": "Schibsted Grotesk",
+      "label": "IBM Plex Mono",
+      "mood": "newspaper, brutalist, editorial, masthead, manifesto, compressed display"
+    },
+    "moves": [
+      "Masthead spec bar (thin black band with mono ISSUE №01 · EDITION · OPEN time)",
+      "Newspaper title block with compressed Big Shoulders 'N · Café' wordmark and 4px double rule",
+      "Hero as feature spread: 8-col headline + 4-col photo+bynumbers spec column",
+      "All section eyebrows are §-prefixed mono labels (§ Dispatch / § The Menu / § Letters)",
+      "Dispatch (about) renders as two-column newspaper copy with drop-cap and column-rule",
+      "Menu is a printed price list with №01-style mono row prefixes and dotted-leader hours",
+      "Reviews appear on full-bleed ink slab as columnar pull quotes with hot-pink open glyph",
+      "Visit section uses 4px double bottom rule and Big Shoulders address typeset like masthead",
+      "Closing CTA is a hot-pink full-bleed ribbon (§ Closing Argument)",
+      "Footer ends with 4px double rule and 'Set in Big Shoulders & Plex Mono · Printed on the internet.'"
+    ]
   }
 }
