@@ -1,11 +1,11 @@
 // @ts-nocheck
 "use client";
 
-import { Big_Shoulders_Display, Schibsted_Grotesk, IBM_Plex_Mono } from "next/font/google";
+import { Ultra, Schibsted_Grotesk, IBM_Plex_Mono } from "next/font/google";
 import content from "../data/content.json";
 
-// /ui-ux-pro-max → brutalist newspaper-editorial triple stack (compressed display + clean body + mono labels)
-const display = Big_Shoulders_Display({ subsets: ["latin"], weight: ["700", "800", "900"] });
+// /ui-ux-pro-max → brutalist newspaper-editorial triple stack (heavy slab display + clean body + mono labels)
+const display = Ultra({ subsets: ["latin"], weight: ["400"] });
 const body = Schibsted_Grotesk({ subsets: ["latin"], weight: ["400", "500", "700"] });
 const mono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
@@ -644,7 +644,7 @@ export default function Page() {
             }}
           >
             <span>© {new Date().getFullYear()} N Café — Glendale Edition. All rights observed.</span>
-            <span>Set in Big Shoulders & Plex Mono · Printed on the internet.</span>
+            <span>Set in Ultra & Plex Mono · Printed on the internet.</span>
           </div>
         </div>
       </footer>

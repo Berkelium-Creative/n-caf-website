@@ -105,7 +105,7 @@
   "theme": {
     "primaryColor": "#18181B",
     "accentColor": "#EC4899",
-    "fontFamily": "bigshoulders-schibsted"
+    "fontFamily": "ultra-schibsted"
   },
   "designSystem": {
     "searchQuery": "brutalist concrete monolithic cafe newspaper grid neighborhood coffee no-frills",
@@ -123,10 +123,10 @@
       "surface": "#FFFFFF"
     },
     "typography": {
-      "heading": "Big Shoulders Display",
+      "heading": "Ultra",
       "body": "Schibsted Grotesk",
       "label": "IBM Plex Mono",
-      "mood": "newspaper, brutalist, editorial, masthead, manifesto, compressed display"
+      "mood": "newspaper, brutalist, editorial, masthead, manifesto, heavy slab display"
     },
     "moves": [
       "Masthead spec bar (thin black band with mono ISSUE №01 · EDITION · OPEN time)",
